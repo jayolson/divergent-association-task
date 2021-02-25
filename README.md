@@ -17,7 +17,9 @@ Try the task and see your score at
 
     - `git clone https://github.com/jayolson/divergent-association-task.git`
 
-2. Download the dependencies and model:
+2. Install [Python 3](https://www.python.org) and [pip](https://pypi.org/project/pip/).
+
+3. Download the dependencies and model:
 
     - `make install` on Unix-like systems
 
@@ -27,7 +29,7 @@ Try the task and see your score at
 
         - Download and extract glove.840B.300d.zip from <https://nlp.stanford.edu/projects/glove/>
 
-3. Try it:
+4. Try it:
 
     - `python3 examples.py`
 
