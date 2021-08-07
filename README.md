@@ -79,6 +79,14 @@ By [Jay Olson](https://www.jayolson.org) at Harvard University.
 The dictionary (words.txt) is based on [Hunspell](https://hunspell.github.io)
 by László Németh.
 
+## Online dictionary
+
+The online task currently uses an abbreviated dictionary (`words-common.txt`)
+from [SCOWL](http://wordlist.aspell.net/scowl-readme/) to provide score
+estimates with less memory consumption. We recommend using the full Hunspell
+dictionary for studies; we will be recomputing our online scores based on this
+dictionary.
+
 ## License
 
 MIT
