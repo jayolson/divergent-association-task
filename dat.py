@@ -16,14 +16,14 @@ class Model:
 
         # Keep unique words matching pattern from file
         words = set()
-        with open(dictionary, "r") as f:
+        with open(dictionary, "r", encoding="utf8") as f:
             for line in f:
                 if re.match(pattern, line):
                     words.add(line.rstrip("\n"))
 
         # Join words with model
         vectors = {}
-        with open(model, "r") as f:
+        with open(model, "r", encoding="utf8") as f:
             for line in f:
                 tokens = line.split(" ")
                 word = tokens[0]
